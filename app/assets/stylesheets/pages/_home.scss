@@ -1,32 +1,37 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  margin-left: 40px;
-  margin-right: 40px;
-  font-family: 'Oswald';
-  font-size: 21px;
-  font-weight: bold;
-  color: white;
-}
-
-.header-border {
-  border-bottom: 1px solid white;
-}
-
-.title-and-subtitle {
-  margin-top: 350px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  font-family: 'Oswald';
-}
-
-
-
 .background {
   background-image: url("homepage.jpg");
   background-size: cover;
   background-position: center;
   height: 1000px;
+
+  .header-border {
+    border-bottom: 1px solid white;
+    .header {
+      display: flex;
+      justify-content: space-between;
+      margin-left: 100px;
+      margin-right: 100px;
+      font-family: 'Oswald';
+      font-size: 21px;
+      font-weight: bold;
+      color: white;
+    }
+  }
+
+  .title-and-subtitle {
+    margin-top: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Oswald';
+    .title {
+      font-size: 82px;
+      height: 200px;
+    }
+
+    .subtitle {
+      font-size: 28px
+    }
+  }
 }

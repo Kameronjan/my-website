@@ -82,5 +82,22 @@
     height: 800px;
     flex: 1;
   }
+}
 
+.background-6 {
+  display: flex;
+
+  .left-3 {
+    background-image: url("marketing.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    flex: 1;
+  }
+
+  .right-3{
+    height: 800px;
+    background-color: #1B1B1B;
+    flex: 1;
+  }
 }

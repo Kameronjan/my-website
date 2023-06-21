@@ -49,11 +49,19 @@
 }
 
 .background-4 {
+  display: flex;
 
   .left-1 {
     background-image: url("media.jpg");
     background-size: cover;
     background-position: center;
     height: 800px;
+    flex: 1;
+  }
+
+  .right-1{
+    height: 800px;
+    background-color: #1B1B1B;
+    flex: 1;
   }
 }

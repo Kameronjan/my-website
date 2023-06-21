@@ -79,6 +79,20 @@
     height: 800px;
     background-color: #1B1B1B;
     flex: 1;
+    .title-and-subtitle-2{
+      font-family: 'oswald';
+      color: white;
+
+    }
+
+    .title-2{
+      font-size: 40px;
+    }
+
+    .subtitle-2{
+      font-size: 26px;
+      opacity: 75%;
+    }
   }
 }
 

@@ -65,3 +65,22 @@
     flex: 1;
   }
 }
+
+.background-5 {
+  display: flex;
+
+  .left-2 {
+    height: 800px;
+    background-color: #816BD9;
+    flex: 1;
+  }
+
+  .right-2 {
+    background-image: url("web.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    flex: 1;
+  }
+
+}

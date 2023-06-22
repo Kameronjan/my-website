@@ -164,6 +164,34 @@
   background-size: cover;
   background-position: center;
   height: 665px;
+
+  .background-7-cards {
+    display: flex;
+
+    .idea-card {
+      width: 350px;
+      height: 440px;
+      background-color: black;
+      opacity: 50%;
+      margin: 5px;
+    }
+
+    .design-card {
+      width: 350px;
+      height: 440px;
+      background-color: black;
+      opacity: 50%;
+      margin: 5px;
+    }
+
+    .action-card {
+      width: 350px;
+      height: 440px;
+      background-color: black;
+      opacity: 50%;
+      margin: 5px;
+    }
+  }
 }
 
 .background-8 {

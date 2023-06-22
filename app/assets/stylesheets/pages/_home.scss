@@ -173,11 +173,22 @@
     opacity: 50%;
     color: white;
 
+    .subtitler {
+      font-size: 59px;
+      margin-top: 10px;
+      margin-bottom: 25px;
+    }
+
+    .descriptioner {
+      font-size: 20px;
+    }
+
     .idea-card {
       width: 350px;
       height: 440px;
       background-color: black;
       margin: 60px;
+      padding: 25px;
       border-radius: 10px;
       display: flex;
       align-items: center;
@@ -190,6 +201,7 @@
       height: 440px;
       background-color: black;
       margin: 60px;
+      padding: 25px;
       border-radius: 10px;
       display: flex;
       align-items: center;
@@ -202,6 +214,7 @@
       height: 440px;
       background-color: black;
       margin: 60px;
+      padding: 25px;
       border-radius: 10px;
       display: flex;
       align-items: center;

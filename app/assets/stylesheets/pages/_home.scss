@@ -171,6 +171,7 @@
   .background-7-cards {
     display: flex;
     opacity: 50%;
+    color: white;
 
     .idea-card {
       width: 350px;
@@ -178,6 +179,10 @@
       background-color: black;
       margin: 60px;
       border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
 
     .design-card {
@@ -186,6 +191,10 @@
       background-color: black;
       margin: 60px;
       border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
 
     .action-card {
@@ -194,6 +203,10 @@
       background-color: black;
       margin: 60px;
       border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
   }
 }

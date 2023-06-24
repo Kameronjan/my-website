@@ -54,10 +54,10 @@
     opacity: 50%;
     color: white;
     width: 100%;
+    text-align: center;
 
     .subtitler {
-      font-size: 59px;
-      margin-top: 10px;
+      font-size: 32px;
       margin-bottom: 25px;
     }
 
@@ -67,9 +67,9 @@
 
     .idea-card {
       width: 350px;
-      height: 440px;
+      height: 350px;
       background-color: black;
-      margin: 60px;
+      margin: 52px;
       padding: 25px;
       border-radius: 10px;
       display: flex;
@@ -80,10 +80,10 @@
 
     .design-card {
       width: 350px;
-      height: 440px;
+      height: 350px;
       background-color: black;
-      margin: 60px;
-      padding: 25px;
+      margin: 52px;
+      padding: 20px;
       border-radius: 10px;
       display: flex;
       align-items: center;
@@ -93,9 +93,9 @@
 
     .action-card {
       width: 350px;
-      height: 440px;
+      height: 350px;
       background-color: black;
-      margin: 60px;
+      margin: 52px;
       padding: 25px;
       border-radius: 10px;
       display: flex;

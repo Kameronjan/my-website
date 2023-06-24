@@ -48,6 +48,62 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  .background-2-cards {
+    display: flex;
+    opacity: 50%;
+    color: white;
+    width: 100%;
+
+    .subtitler {
+      font-size: 59px;
+      margin-top: 10px;
+      margin-bottom: 25px;
+    }
+
+    .descriptioner {
+      font-size: 20px;
+    }
+
+    .idea-card {
+      width: 350px;
+      height: 440px;
+      background-color: black;
+      margin: 60px;
+      padding: 25px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .design-card {
+      width: 350px;
+      height: 440px;
+      background-color: black;
+      margin: 60px;
+      padding: 25px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .action-card {
+      width: 350px;
+      height: 440px;
+      background-color: black;
+      margin: 60px;
+      padding: 25px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
 }
 
 .background-3 {

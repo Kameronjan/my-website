@@ -183,6 +183,8 @@
     height: 800px;
     background-color: #816BD9;
     flex: 1;
+    border-right: 0.5px solid black;
+    border-bottom: 1px solid black;
 
     .title-and-subtitle-3{
       color: white;
@@ -210,6 +212,8 @@
     background-position: center;
     height: 800px;
     flex: 1;
+    border-left: 0.5px solid black;
+    border-bottom: 1px solid black;
   }
 }
 
@@ -222,13 +226,16 @@
     background-position: center;
     height: 800px;
     flex: 1;
+    border-right: 0.5px solid black;
+    border-bottom: 1px solid black;
   }
 
   .right-3{
     height: 800px;
     background-color: #1B1B1B;
     flex: 1;
-    border: 1px solid black;
+    border-left: 0.5px solid black;
+    border-bottom: 1px solid black;
 
     .title-and-subtitle-4{
       color: white;

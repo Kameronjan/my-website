@@ -337,6 +337,12 @@
 
       a {
         text-decoration: none;
+        color: black;
+      }
+
+      a:hover {
+        color: #806BD9;
+        transition: 0.3s;
       }
     }
   }

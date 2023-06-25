@@ -51,7 +51,6 @@
 
   .background-2-cards {
     display: flex;
-    opacity: 50%;
     color: white;
     width: 100%;
     text-align: center;
@@ -63,12 +62,14 @@
 
     .descriptionerr {
       font-size: 20px;
+      opacity: 75%;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
     }
 
     .social-media-management-card {
       width: 350px;
       height: 280px;
-      background-color: black;
+      background-color: rgba(0, 0, 0, 0.5);
       margin: 52px;
       padding: 25px;
       border-radius: 10px;
@@ -80,8 +81,8 @@
 
     .web-design-and-development-card {
       width: 350px;
-      height: 280px;
-      background-color: black;
+      height: 300px;
+      background-color: rgba(0, 0, 0, 0.5);
       margin: 52px;
       padding: 20px;
       border-radius: 10px;
@@ -94,7 +95,7 @@
     .digital-marketing-and-seo-card {
       width: 350px;
       height: 280px;
-      background-color: black;
+      background-color: rgba(0, 0, 0, 0.5);
       margin: 52px;
       padding: 25px;
       border-radius: 10px;

@@ -1,7 +1,9 @@
-import { Application } from 'stimulus'
-import { ScrollTo } from 'stimulus-scroll-to'
+import { Application } from "@hotwired/stimulus"
 
 const application = Application.start()
-application.register("scroll-to", ScrollTo)
 
-// ... other JavaScript code for your application
+// Configure Stimulus development experience
+application.debug = false
+window.Stimulus   = application
+
+export { application }

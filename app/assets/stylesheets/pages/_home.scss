@@ -21,6 +21,16 @@
       font-weight: bold;
       color: white;
       text-shadow: 2px 2px 4px black;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      a:hover {
+        color: #806BD9;
+        transition: 0.3s;
+      }
     }
   }
 

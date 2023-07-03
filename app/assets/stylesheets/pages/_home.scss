@@ -167,6 +167,21 @@
     opacity: 75%;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   }
+
+  @media (max-width: 1387px) {
+      .title-and-subtitle-1 {
+        padding-left: 270px;
+        padding-right: 270px;
+      }
+
+      .title-1 {
+        font-size: 38px;
+      }
+
+      .subtitle-1 {
+        font-size: 25px;
+      }
+  }
 }
 
 .background-4 {

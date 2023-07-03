@@ -782,7 +782,13 @@
     }
 
     @media (max-width: 990px) {
+      .title-10 {
+        font-size: 45px;
+      }
 
+      .subtitle-10 {
+        font-size: 16px;
+      }
     }
   }
 }
@@ -799,7 +805,7 @@
   }
 
   @media (max-width: 990px) {
-    padding: 0px;
+    padding: 10px;
   }
 }
 

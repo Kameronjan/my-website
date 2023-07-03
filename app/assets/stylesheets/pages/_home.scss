@@ -261,7 +261,7 @@
   @media (max-width: 1190px) {
     .title-and-subtitle-1 {
       padding-left: 210px;
-      padding-right: 21 0px;
+      padding-right: 210px;
     }
 
     .title-1 {
@@ -270,6 +270,21 @@
 
     .subtitle-1 {
       font-size: 22px;
+    }
+  }
+
+  @media (max-width: 990px) {
+    .title-and-subtitle-1 {
+      padding-left: 150px;
+      padding-right: 150px;
+    }
+
+    .title-1 {
+      font-size: 31px;
+    }
+
+    .subtitle-1 {
+      font-size: 21px;
     }
   }
 }

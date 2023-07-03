@@ -137,7 +137,6 @@
 
       .descriptionerr {
         font-size: 18px;
-        opacity: 75%;
       }
 
       .social-media-management-card {
@@ -153,7 +152,6 @@
       }
     }
 
-
     @media (max-width: 1190px) {
       .subtitlerr {
         font-size: 24px;
@@ -162,7 +160,6 @@
 
       .descriptionerr {
         font-size: 16px;
-        opacity: 75%;
       }
 
       .social-media-management-card {
@@ -175,6 +172,48 @@
 
       .digital-marketing-and-seo-card {
         padding: 21px;
+      }
+    }
+
+    @media (max-width: 990px) {
+      .subtitlerr {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+
+      .descriptionerr {
+        font-size: 14px;
+      }
+
+      .social-media-management-card {
+        padding: 12px;
+        height: 250px;
+      }
+
+      .web-design-and-development-card {
+        padding: 12px;
+        height: 250px;
+      }
+
+      .digital-marketing-and-seo-card {
+        padding: 12px;
+        height: 250px;
+      }
+
+      .fa-4x {
+        font-size: 3em;
+      }
+
+      .social-media-management-icon {
+        height: 70px;
+      }
+
+      .digital-marketing-and-seo-icon {
+        height: 70px;
+      }
+
+      .web-design-and-development-icon {
+        height: 70px;
       }
     }
   }
@@ -650,6 +689,10 @@
 
   @media (max-width: 1190px) {
     padding: 13px;
+  }
+
+  @media (max-width: 990px) {
+    padding: 0px;
   }
 }
 

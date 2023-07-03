@@ -51,7 +51,7 @@
       font-size: 28px
     }
 
-    @media (max-width: 1332px) {
+    @media (max-width: 1387px) {
       .title {
         font-size: 65px;
         margin-top: 20px;
@@ -95,6 +95,7 @@
       width: 350px;
       height: 280px;
       background-color: rgba(0, 0, 0, 0.5);
+      margin-top: 250px;
       margin: 52px;
       padding: 25px;
       border-radius: 10px;
@@ -128,6 +129,18 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
+    }
+
+    @media (max-width: 1387px) {
+      .subtitlerr {
+        font-size: 30px;
+        margin-bottom: 20px;
+      }
+
+      .descriptionerr {
+        font-size: 20px;
+        opacity: 75%;
+      }
     }
   }
 }

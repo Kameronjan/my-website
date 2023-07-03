@@ -422,6 +422,33 @@
       justify-content: center;
       flex-direction: column;
     }
+
+    @media (max-width: 1387px) {
+      .subtitler {
+        font-size: 55px;
+        margin-top: 9px;
+        margin-bottom: 20px;
+      }
+
+      .descriptioner {
+        font-size: 19px;
+      }
+
+      .idea-card {
+        padding: 20px;
+        margin: 50px;
+      }
+
+      .design-card {
+        padding: 20px;
+        margin: 50px;
+      }
+
+      .action-card {
+        padding: 20px;
+        margin: 50px;
+      }
+    }
   }
 }
 

@@ -140,6 +140,18 @@
         opacity: 75%;
       }
     }
+
+    @media (max-width: 1190px) {
+      .subtitlerr {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+
+      .descriptionerr {
+        font-size: 16px;
+        opacity: 75%;
+      }
+    }
   }
 }
 

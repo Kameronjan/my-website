@@ -54,7 +54,6 @@
     @media (max-width: 1387px) {
       .title {
         font-size: 65px;
-        margin-top: 20px;
       }
 
       .subtitle {
@@ -489,11 +488,25 @@
         transition: 0.3s;
       }
     }
+
+    @media (max-width: 1387px) {
+      .title-10 {
+        font-size: 55px;
+      }
+
+      .subtitle-10 {
+        font-size: 18px;
+      }
+    }
   }
 }
 
 .fab {
   padding: 15px;
+
+  @media (max-width: 1387px) {
+    padding: 14px;
+  }
 }
 
 .footer{
@@ -503,4 +516,9 @@
   display: flex;
   justify-content: space-between;
   padding: 15px 20px 0px 20px;
+  font-size: 16px;
+
+  @media (max-width: 1387px) {
+    font-size: 15px;
+  }
 }

@@ -443,6 +443,24 @@
         font-size: 23px;
       }
     }
+
+
+    @media (max-width: 990px) {
+      .title-and-subtitle-3 {
+        padding-left: 45px;
+        padding-right: 45px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+
+      .title-3 {
+        font-size: 30px;
+      }
+
+      .subtitle-3 {
+        font-size: 21px;
+      }
+    }
   }
 
   .right-2 {

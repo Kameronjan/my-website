@@ -551,6 +551,34 @@
         margin: 50px;
       }
     }
+
+    @media (max-width: 1190px) {
+      .subtitler {
+        font-size: 55px;
+        margin-top: 9px;
+        margin-bottom: 10px;
+      }
+
+      .descriptioner {
+        font-size: 18px;
+      }
+
+      .idea-card {
+        padding: 15px;
+        margin: 40px;
+      }
+
+      .design-card {
+        padding: 15px;
+        margin: 40px;
+      }
+
+      .action-card {
+        padding: 15px;
+        margin: 40px;
+      }
+
+    }
   }
 }
 

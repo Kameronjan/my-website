@@ -629,6 +629,16 @@
         font-size: 18px;
       }
     }
+
+    @media (max-width: 1190px) {
+      .title-10 {
+        font-size: 50px;
+      }
+
+      .subtitle-10 {
+        font-size: 17px;
+      }
+    }
   }
 }
 
@@ -637,6 +647,10 @@
 
   @media (max-width: 1387px) {
     padding: 14px;
+  }
+
+  @media (max-width: 1190px) {
+    padding: 13px;
   }
 }
 
@@ -651,5 +665,9 @@
 
   @media (max-width: 1387px) {
     font-size: 15px;
+  }
+
+  @media (max-width: 1190px) {
+    font-size: 14px;
   }
 }

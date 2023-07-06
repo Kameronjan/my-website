@@ -832,6 +832,40 @@
         height: 400px;
       }
     }
+
+    @media (max-width: 790px) {
+      .fa-4x {
+        font-size: 2em;
+      }
+
+      .subtitler {
+        font-size: 30px;
+        margin-top: 5px;
+        margin-bottom: 8px;
+      }
+
+      .descriptioner {
+        font-size: 16px;
+      }
+
+      .idea-card {
+        padding: 8px;
+        margin: 24px;
+        height: 380px;
+      }
+
+      .design-card {
+        padding: 8px;
+        margin: 24px;
+        height: 380px;
+      }
+
+      .action-card {
+        padding: 8px;
+        margin: 24px;
+        height: 380px;
+      }
+    }
   }
 }
 

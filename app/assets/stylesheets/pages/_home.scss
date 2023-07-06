@@ -425,8 +425,8 @@
 
     @media (max-width: 990px) {
       .title-and-subtitle-2 {
-        padding-left: 45px;
-        padding-right: 45px;
+        padding-left: 47px;
+        padding-right: 47px;
         padding-top: 30px;
         padding-bottom: 30px;
       }
@@ -437,6 +437,23 @@
 
       .subtitle-2 {
         font-size: 21px;
+      }
+    }
+
+    @media (max-width: 790px) {
+      .title-and-subtitle-2 {
+        padding-left: 33px;
+        padding-right: 33px;
+        padding-top: 26px;
+        padding-bottom: 26px;
+      }
+
+      .title-2 {
+        font-size: 26px;
+      }
+
+      .subtitle-2 {
+        font-size: 19px;
       }
     }
   }

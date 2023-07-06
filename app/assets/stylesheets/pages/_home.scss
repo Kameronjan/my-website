@@ -333,6 +333,21 @@
       font-size: 21px;
     }
   }
+
+  @media (max-width: 790px) {
+    .title-and-subtitle-1 {
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+
+    .title-1 {
+      font-size: 28px;
+    }
+
+    .subtitle-1 {
+      font-size: 20px;
+    }
+  }
 }
 
 .background-4 {

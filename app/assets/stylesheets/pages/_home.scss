@@ -62,11 +62,8 @@
       }
     }
 
-    @media (max-width: 790px) {
-      .header-border {
-
-      }
-    }
+    // @media (max-width: 790px) {
+    // }
   }
 }
 
@@ -221,6 +218,48 @@
 
       .web-design-and-development-icon {
         height: 70px;
+      }
+    }
+
+    @media (max-width: 790px) {
+      .subtitlerr {
+        font-size: 15px;
+        margin-bottom: 15px;
+      }
+
+      .descriptionerr {
+        font-size: 10px;
+      }
+
+      .social-media-management-card {
+        padding: 8px;
+        height: 225px;
+      }
+
+      .web-design-and-development-card {
+        padding: 8px;
+        height: 225px;
+      }
+
+      .digital-marketing-and-seo-card {
+        padding: 8px;
+        height: 225px;
+      }
+
+      .fa-4x {
+        font-size: 2em;
+      }
+
+      .social-media-management-icon {
+        height: 60px;
+      }
+
+      .digital-marketing-and-seo-icon {
+        height: 60px;
+      }
+
+      .web-design-and-development-icon {
+        height: 60px;
       }
     }
   }

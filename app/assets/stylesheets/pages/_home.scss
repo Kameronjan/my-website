@@ -449,11 +449,11 @@
       }
 
       .title-2 {
-        font-size: 26px;
+        font-size: 24px;
       }
 
       .subtitle-2 {
-        font-size: 19px;
+        font-size: 18px;
       }
     }
   }
@@ -524,8 +524,8 @@
 
     @media (max-width: 990px) {
       .title-and-subtitle-3 {
-        padding-left: 45px;
-        padding-right: 45px;
+        padding-left: 47px;
+        padding-right: 47px;
         padding-top: 30px;
         padding-bottom: 30px;
       }
@@ -536,6 +536,23 @@
 
       .subtitle-3 {
         font-size: 21px;
+      }
+    }
+
+    @media (max-width: 790px) {
+      .title-and-subtitle-3 {
+        padding-left: 33px;
+        padding-right: 33px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+      }
+
+      .title-3 {
+        font-size: 24x;
+      }
+
+      .subtitle-3 {
+        font-size: 18px;
       }
     }
   }
@@ -638,6 +655,23 @@
 
       .subtitle-4 {
         font-size: 21px;
+      }
+    }
+
+    @media (max-width: 790px) {
+      .title-and-subtitle-4 {
+        padding-left: 33px;
+        padding-right: 33px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+      }
+
+      .title-4 {
+        font-size: 24x;
+      }
+
+      .subtitle-4 {
+        font-size: 18px;
       }
     }
   }

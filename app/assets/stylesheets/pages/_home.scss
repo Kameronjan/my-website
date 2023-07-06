@@ -12,6 +12,7 @@
 
   .header-border {
     border-bottom: 1px solid white;
+
     .header {
       display: flex;
       justify-content: space-between;
@@ -61,9 +62,11 @@
       }
     }
 
-    // @media (max-width: 790px) {
+    @media (max-width: 790px) {
+      .header-border {
 
-    // }
+      }
+    }
   }
 }
 

@@ -936,6 +936,22 @@
         font-size: 16px;
       }
     }
+
+    @media (max-width: 790px) {
+
+      // not working for some reason, something to work on (background-8)
+      .background-8 {
+        height: 290px;
+      }
+
+      .title-10 {
+        font-size: 40px;
+      }
+
+      .subtitle-10 {
+        font-size: 15px;
+      }
+    }
   }
 }
 
@@ -952,6 +968,10 @@
 
   @media (max-width: 990px) {
     padding: 10px;
+  }
+
+  @media (max-width: 790px) {
+    padding: 8px;
   }
 }
 

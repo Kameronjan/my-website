@@ -632,6 +632,23 @@
         font-size: 18px;
       }
     }
+
+    @media (max-width: 590px) {
+      .title-and-subtitle-3 {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 23px;
+        padding-bottom: 23px;
+      }
+
+      .title-3 {
+        font-size: 21px;
+      }
+
+      .subtitle-3 {
+        font-size: 17px;
+      }
+    }
   }
 
   .right-2 {

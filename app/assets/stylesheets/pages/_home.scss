@@ -1099,6 +1099,17 @@
         font-size: 15px;
       }
     }
+
+
+    @media (max-width: 590px) {
+      .title-10 {
+        font-size: 35px;
+      }
+
+      .subtitle-10 {
+        font-size: 14px;
+      }
+    }
   }
 }
 
@@ -1119,6 +1130,10 @@
 
   @media (max-width: 790px) {
     padding: 8px;
+  }
+
+  @media (max-width: 590px) {
+    padding: 6px;
   }
 }
 

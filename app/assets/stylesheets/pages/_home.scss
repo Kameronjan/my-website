@@ -516,6 +516,23 @@
         font-size: 18px;
       }
     }
+
+    @media (max-width: 590px) {
+      .title-and-subtitle-2 {
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 23px;
+        padding-bottom: 23px;
+      }
+
+      .title-2 {
+        font-size: 21px;
+      }
+
+      .subtitle-2 {
+        font-size: 17px;
+      }
+    }
   }
 }
 

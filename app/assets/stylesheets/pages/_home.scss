@@ -1161,4 +1161,9 @@
   @media (max-width: 790px) {
     font-size: 11px;
   }
+
+  @media (max-width: 590px) {
+    // should think about reducing height as it does down
+    font-size: 9px;
+  }
 }

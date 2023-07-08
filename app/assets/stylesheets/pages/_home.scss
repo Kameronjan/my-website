@@ -262,6 +262,51 @@
         height: 60px;
       }
     }
+
+    @media (max-width: 590px) {
+      .subtitlerr {
+        font-size: 12px;
+        margin-bottom: 12px;
+      }
+
+      .descriptionerr {
+        font-size: 10px;
+      }
+
+      .social-media-management-card {
+        padding: 4px;
+        height: 200px;
+        margin: 30px;
+      }
+
+      .web-design-and-development-card {
+        padding: 4px;
+        height: 200px;
+        margin: 30px;
+      }
+
+      .digital-marketing-and-seo-card {
+        padding: 4px;
+        height: 200px;
+        margin: 30px;
+      }
+
+      .fa-4x {
+        font-size: 2em;
+      }
+
+      .social-media-management-icon {
+        height: 55px;
+      }
+
+      .digital-marketing-and-seo-icon {
+        height: 55px;
+      }
+
+      .web-design-and-development-icon {
+        height: 55px;
+      }
+    }
   }
 }
 

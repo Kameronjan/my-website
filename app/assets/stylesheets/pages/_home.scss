@@ -1134,42 +1134,49 @@
     }
 
     @media (max-width: 490px) {
+      flex-direction: column;
+      align-items: center;
+
       .fa-4x {
-        font-size: 1.7em;
+        font-size: 1.5em;
       }
 
       .subtitler {
-        font-size: 20px;
+        font-size: 15px;
         margin-top: 0px;
         margin-bottom: 0px;
       }
 
       .descriptioner {
-        font-size: 15px;
+        font-size: 14px;
         margin-top: 5px;
         margin-bottom: 5px;
       }
 
       .idea-card {
-        padding: 6px;
-        margin: 18px;
-        height: 365px;
+        padding: 5px;
+        margin: 10px;
+        height: 180px;
+        width: 70%;
       }
 
       .design-card {
-        padding: 6px;
-        margin: 18px;
-        height: 365px;
+        padding: 5px;
+        margin: 10px;
+        height: 180px;
+        width: 70%;
       }
 
       .action-card {
-        padding: 6px;
-        margin: 18px;
-        height: 365px;
+        padding: 5px;
+        margin: 10px;
+        height: 180px;
+        width: 70%;
       }
     }
   }
 }
+
 
 .background-8 {
   height: 320px;

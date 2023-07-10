@@ -600,6 +600,23 @@
         font-size: 17px;
       }
     }
+
+    @media (max-width: 490px) {
+      .title-and-subtitle-2 {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 18px;
+        padding-bottom: 18px;
+      }
+
+      .title-2 {
+        font-size: 18px;
+      }
+
+      .subtitle-2 {
+        font-size: 15px;
+      }
+    }
   }
 }
 

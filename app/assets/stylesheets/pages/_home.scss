@@ -35,14 +35,14 @@
           border-color: white;
         }
 
-        a {
+        .nav-link {
           text-decoration: none;
           color: white;
           padding-left: 40px;
           padding-right: 40px;
         }
 
-        a:hover {
+        .nav-link:hover {
           color: #806BD9;
           transition: 0.3s;
         }
@@ -53,6 +53,11 @@
   @media (max-width: 1190px) {
     .header-border {
       justify-content: flex-start;
+    }
+
+    .header-border .container-fluid .header .nav-link {
+      padding-left: 0px;
+      padding-right: 0px;
     }
   }
 

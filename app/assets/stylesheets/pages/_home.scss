@@ -542,12 +542,6 @@
     border-bottom: 1px solid black;
   }
 
-  @media (max-width: 990px) {
-    .left-1 {
-      height: 630px;
-    }
-  }
-
   .right-1 {
     height: 800px;
     background-color: #1B1B1B;
@@ -609,7 +603,6 @@
     }
 
     @media (max-width: 990px) {
-
       .title-and-subtitle-2 {
         padding-left: 47px;
         padding-right: 47px;
@@ -675,12 +668,6 @@
       .subtitle-2 {
         font-size: 15px;
       }
-    }
-  }
-
-  @media (max-width: 990px) {
-    .right-1 {
-      height: 630px;
     }
   }
 }

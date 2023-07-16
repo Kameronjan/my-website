@@ -179,6 +179,10 @@
       flex-direction: column;
     }
 
+    *, ::after, ::before {
+      box-sizing: content-box;
+    }
+
     @media (max-width: 1387px) {
       .subtitlerr {
         font-size: 28px;

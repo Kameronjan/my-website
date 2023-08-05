@@ -573,6 +573,10 @@
     flex: 1;
     border-right: 0.5px solid black;
     border-bottom: 1px solid black;
+
+    @media (max-width: 990px) {
+      background-image: url("mediapic.png");
+    }
   }
 
   .right-1 {

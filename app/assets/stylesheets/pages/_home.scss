@@ -544,6 +544,11 @@
 .background-4 {
   display: flex;
 
+  @media (max-width: 990px) {
+    flex-direction: column;
+    height: 1000px;
+  }
+
   .left-1 {
     background-image: url("media.jpg");
     background-size: cover;

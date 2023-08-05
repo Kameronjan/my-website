@@ -546,13 +546,19 @@
 
   @media (max-width: 990px) {
     flex-direction: column;
-    height: 1000px;
+    height: 950px;
   }
 
-  @media (max-width: 490px) {
+  @media (max-width: 790px) {
+    height: 925px;
   }
 
-  @media (max-width: 490px) {
+  @media (max-width: 690px) {
+    height: 900px;
+  }
+
+  @media (max-width: 590px) {
+    height: 850px;
   }
 
   @media (max-width: 490px) {

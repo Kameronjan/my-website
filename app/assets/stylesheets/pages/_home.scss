@@ -708,27 +708,6 @@
 .background-5 {
   display: flex;
 
-  @media (max-width: 990px) {
-    flex-direction: column;
-    height: 950px;
-  }
-
-  @media (max-width: 790px) {
-    height: 925px;
-  }
-
-  @media (max-width: 690px) {
-    height: 900px;
-  }
-
-  @media (max-width: 590px) {
-    height: 850px;
-  }
-
-  @media (max-width: 490px) {
-    height: 800px;
-  }
-
   .left-2 {
     height: 800px;
     background-color: #816BD9;

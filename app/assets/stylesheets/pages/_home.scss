@@ -873,169 +873,169 @@
   }
 }
 
-.background-6 {
-  display: flex;
+// .background-6 {
+//   display: flex;
 
-  @media (max-width: 990px) {
-    flex-direction: column;
-    height: 950px;
-  }
+//   @media (max-width: 990px) {
+//     flex-direction: column;
+//     height: 950px;
+//   }
 
-  @media (max-width: 790px) {
-    height: 925px;
-  }
+//   @media (max-width: 790px) {
+//     height: 925px;
+//   }
 
-  @media (max-width: 690px) {
-    height: 900px;
-  }
+//   @media (max-width: 690px) {
+//     height: 900px;
+//   }
 
-  @media (max-width: 590px) {
-    height: 850px;
-  }
+//   @media (max-width: 590px) {
+//     height: 850px;
+//   }
 
-  @media (max-width: 490px) {
-    height: 800px;
-  }
+//   @media (max-width: 490px) {
+//     height: 800px;
+//   }
 
-  .left-3 {
-    background-image: url("marketing.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 800px;
-    flex: 1;
-    border-right: 0.5px solid black;
-    border-bottom: 1px solid black;
-  }
+//   .left-3 {
+//     background-image: url("marketing.jpg");
+//     background-size: cover;
+//     background-position: center;
+//     height: 800px;
+//     flex: 1;
+//     border-right: 0.5px solid black;
+//     border-bottom: 1px solid black;
+//   }
 
-  .right-3{
-    height: 800px;
-    background-color: #1B1B1B;
-    flex: 1;
-    border-left: 0.5px solid black;
-    border-bottom: 1px solid black;
+//   .right-3{
+//     height: 800px;
+//     background-color: #1B1B1B;
+//     flex: 1;
+//     border-left: 0.5px solid black;
+//     border-bottom: 1px solid black;
 
-    .title-and-subtitle-4{
-      color: white;
-      padding-left: 75px;
-      padding-right: 75px;
-      padding-top: 40px;
-      padding-bottom: 40px;
-      text-align: center;
-    }
+//     .title-and-subtitle-4{
+//       color: white;
+//       padding-left: 75px;
+//       padding-right: 75px;
+//       padding-top: 40px;
+//       padding-bottom: 40px;
+//       text-align: center;
+//     }
 
-    .title-4{
-      font-size: 40px;
-    }
+//     .title-4{
+//       font-size: 40px;
+//     }
 
-    .subtitle-4{
-      font-size: 26px;
-      opacity: 75%;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    }
-    @media (max-width: 1387px) {
-      .title-and-subtitle-4 {
-        padding-left: 70px;
-        padding-right: 70px;
-        padding-top: 38px;
-        padding-bottom: 38px;
-      }
+//     .subtitle-4{
+//       font-size: 26px;
+//       opacity: 75%;
+//       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+//     }
+//     @media (max-width: 1387px) {
+//       .title-and-subtitle-4 {
+//         padding-left: 70px;
+//         padding-right: 70px;
+//         padding-top: 38px;
+//         padding-bottom: 38px;
+//       }
 
-      .title-4 {
-        font-size: 38px;
-      }
+//       .title-4 {
+//         font-size: 38px;
+//       }
 
-      .subtitle-4 {
-        font-size: 25px;
-      }
-    }
+//       .subtitle-4 {
+//         font-size: 25px;
+//       }
+//     }
 
-    @media (max-width: 1190px) {
-      .title-and-subtitle-4 {
-        padding-left: 60px;
-        padding-right: 60px;
-        padding-top: 34px;
-        padding-bottom: 34px;
-      }
+//     @media (max-width: 1190px) {
+//       .title-and-subtitle-4 {
+//         padding-left: 60px;
+//         padding-right: 60px;
+//         padding-top: 34px;
+//         padding-bottom: 34px;
+//       }
 
-      .title-4 {
-        font-size: 34px;
-      }
+//       .title-4 {
+//         font-size: 34px;
+//       }
 
-      .subtitle-4 {
-        font-size: 23px;
-      }
-    }
+//       .subtitle-4 {
+//         font-size: 23px;
+//       }
+//     }
 
 
-    @media (max-width: 990px) {
-      .title-and-subtitle-4 {
-        padding-left: 45px;
-        padding-right: 45px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-      }
+//     @media (max-width: 990px) {
+//       .title-and-subtitle-4 {
+//         padding-left: 45px;
+//         padding-right: 45px;
+//         padding-top: 30px;
+//         padding-bottom: 30px;
+//       }
 
-      .title-4 {
-        font-size: 30px;
-      }
+//       .title-4 {
+//         font-size: 30px;
+//       }
 
-      .subtitle-4 {
-        font-size: 21px;
-      }
-    }
+//       .subtitle-4 {
+//         font-size: 21px;
+//       }
+//     }
 
-    @media (max-width: 790px) {
-      .title-and-subtitle-4 {
-        padding-left: 33px;
-        padding-right: 33px;
-        padding-top: 25px;
-        padding-bottom: 25px;
-      }
+//     @media (max-width: 790px) {
+//       .title-and-subtitle-4 {
+//         padding-left: 33px;
+//         padding-right: 33px;
+//         padding-top: 25px;
+//         padding-bottom: 25px;
+//       }
 
-      .title-4 {
-        font-size: 24x;
-      }
+//       .title-4 {
+//         font-size: 24x;
+//       }
 
-      .subtitle-4 {
-        font-size: 18px;
-      }
-    }
+//       .subtitle-4 {
+//         font-size: 18px;
+//       }
+//     }
 
-    @media (max-width: 590px) {
-      .title-and-subtitle-4 {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 23px;
-        padding-bottom: 23px;
-      }
+//     @media (max-width: 590px) {
+//       .title-and-subtitle-4 {
+//         padding-left: 25px;
+//         padding-right: 25px;
+//         padding-top: 23px;
+//         padding-bottom: 23px;
+//       }
 
-      .title-4 {
-        font-size: 21px;
-      }
+//       .title-4 {
+//         font-size: 21px;
+//       }
 
-      .subtitle-4 {
-        font-size: 17px;
-      }
-    }
+//       .subtitle-4 {
+//         font-size: 17px;
+//       }
+//     }
 
-    @media (max-width: 490px) {
-      .title-and-subtitle-4 {
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 18px;
-        padding-bottom: 18px;
-      }
+//     @media (max-width: 490px) {
+//       .title-and-subtitle-4 {
+//         padding-left: 20px;
+//         padding-right: 20px;
+//         padding-top: 18px;
+//         padding-bottom: 18px;
+//       }
 
-      .title-4 {
-        font-size: 18px;
-      }
+//       .title-4 {
+//         font-size: 18px;
+//       }
 
-      .subtitle-4 {
-        font-size: 15px;
-      }
-    }
-  }
-}
+//       .subtitle-4 {
+//         font-size: 15px;
+//       }
+//     }
+//   }
+// }
 
 .background-7 {
   background-image: url("steps.jpg");
